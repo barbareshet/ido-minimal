@@ -1,0 +1,121 @@
+{
+    "key": "group_5652f759c8ccb",
+    "title": "\u05d4\u05d2\u05d3\u05e8\u05d5\u05ea \u05db\u05dc\u05dc\u05d9\u05d5\u05ea - \u05de\u05d8\u05d0",
+    "fields": [
+        {
+            "key": "field_5652fed5feef0",
+            "label": "\u05de\u05d9\u05e7\u05d5\u05dd \u05de\u05d5\u05ea\u05d2\u05d9\u05dd",
+            "name": "brand_place",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "default": "\u05d1\u05e8\u05d9\u05e8\u05ea \u05d4\u05de\u05d7\u05d3\u05dc",
+                "none": "\u05dc\u05dc\u05d0",
+                "top": "\u05dc\u05de\u05e2\u05dc\u05d4",
+                "bottom": "\u05dc\u05de\u05d8\u05d4"
+            },
+            "default_value": {
+                "default": "default"
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "key": "field_5652f9da6b807",
+            "label": "\u05de\u05d5\u05d3\u05e2\u05d5\u05ea \u05e7\u05d9\u05d3\u05d5\u05dd (\u05d5\u05d5\u05d9\u05d3\u05d2\u05d8\u05d9\u05dd)",
+            "name": "promo_sidebar",
+            "type": "sidebar_selector",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "allow_null": 1,
+            "default_value": "\u05d1\u05e8\u05d9\u05e8\u05ea \u05d4\u05de\u05d7\u05d3\u05dc - \u05d4\u05d2\u05d3\u05e8\u05d5\u05ea \u05ea\u05d1\u05e0\u05d9\u05ea"
+        },
+        {
+            "key": "field_56531c07c70ea",
+            "label": "\u05d4\u05e6\u05d2 \u05de\u05d5\u05d3\u05e2\u05d5\u05ea \u05e7\u05d9\u05d3\u05d5\u05dd?",
+            "name": "show_promo_sidebar",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1
+        },
+        {
+            "key": "field_568cfc4a31bef",
+            "label": "\u05d0\u05dc \u05ea\u05e6\u05d9\u05d2 \u05d1\u05e0\u05e8 \u05e2\u05dc\u05d9\u05d5\u05df",
+            "name": "dont_show_top_image",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            },
+            {
+                "param": "page_template",
+                "operator": "!=",
+                "value": "home-page.php"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "product"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1454408154
+}

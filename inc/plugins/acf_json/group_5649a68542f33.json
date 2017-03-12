@@ -1,0 +1,39 @@
+{
+    "key": "group_5649a68542f33",
+    "title": "\u05e6\u05d1\u05e2\u05d9\u05dd",
+    "fields": [
+        {
+            "key": "field_5649a6a2e0daf",
+            "label": "\u05d1\u05d7\u05e8 \u05e6\u05d1\u05e2",
+            "name": "colors",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "taxonomy",
+                "operator": "==",
+                "value": "pa_color"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1447667438
+}
